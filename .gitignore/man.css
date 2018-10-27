@@ -4,6 +4,46 @@
 	color: transparent;
 }
 
+}
+
+/* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR ~ :last-child:after{
+  margin-top: 10px;
+  margin-bottom: -3px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: block;
+  background:transparent;
+  border:1px solid var(--Main-Colour);
+  border-radius: 5px;
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" style="width:100%;height:100px;"><g style="fill: lime; font-size: .8em; font-family:verdana"><text y="20" style="font-size: 2em; fill: lime;">Links</text><text y="45" style="font-size: 1.1em;" x="37">Github Link: https://nfld99.com/github</text><text y="65" style="font-size: 1.1em;" x="37">Support Server Link: https://nfld99.com/discord</text><text y="85" style="font-size: 1.1em;" x="37">My Twitch: https://nfld99.com/twitch</text><text y="115" style="font-size: 2em; fill: lime;">Change Log</text><text y="140" style="font-size: 1.1em;" x="37">1.Fixed settings icon.</text><text y="160" style="font-size: 1.1em;" x="37">2.Fixed chat attach popout.</text><text y="180" style="font-size: 1.1em;" x="37">3.Themed public tab.</text></g></svg>') var(--Theme-Variant)", "var(--Update-Text);
+  text-align: center;
+  animation: CLog 10s infinite linear;
+  z-index: 9997;
+  color: var(--Main-Colour);
+}
+
+}
+
+.native-toolbar .titlebar:after{
+  content:var(--Theme-Variant)var(--Update-Text);
+  position: absolute;
+  left: 5px;
+  bottom: 3px;
+  color: Var(--M-Colour) !important;
+}
+
+.wordmark-2iDDfm:after {
+  content: var(--Theme-Variant)var(--Update-Text);
+  color: Var(--M-Colour) !important;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: 3px;
+}
+	
 /**/
 .container-1UB9sr {
     border: 1px solid #09352f;
